@@ -3,6 +3,13 @@
 Automated setup script for fresh Ubuntu WSL installations.
  
 ## Quick Start
+Run commands:
+```bash
+git clone https://github.com/standi98/WSLSetup
+cd WSLSetup/
+chmod +x WSLSetup.sh
+./WSLSetup.sh
+```
 
 
 
@@ -12,28 +19,22 @@ Automated setup script for fresh Ubuntu WSL installations.
  - PIP
  - UV
 
+### Optionally Installed
+ - LaTeX
+
+
 ## What Gets Configured
  
 ### Git:
 - Sets username and email
-
  
 ## Post-Installation Steps
  
 ### 1. Restart your terminal
 ```bash
-source ~/.bashrc  # or source ~/.zshrc if you installed Zsh
+source ~/.bashrc
 ```
- 
- 
-### If you generated an SSH key:
-Add the public key to GitHub:
-```bash
-cat ~/.ssh/id_ed25519.pub
-# Copy the output and add to: https://github.com/settings/keys
-```
- 
- 
+
 
 ## Troubleshooting
  
